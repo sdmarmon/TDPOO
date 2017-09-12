@@ -9,6 +9,7 @@ namespace TD1POO
     {
         static void Main(string[] args)
         {
+            Point p = new Point(1, 2);
         }
     }
 }
