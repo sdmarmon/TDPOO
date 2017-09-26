@@ -1,0 +1,4 @@
+H:\POO2\TD2\TD2\bin\Debug\TD2.exe
+H:\POO2\TD2\TD2\bin\Debug\TD2.pdb
+H:\POO2\TD2\TD2\obj\x86\Debug\TD2.exe
+H:\POO2\TD2\TD2\obj\x86\Debug\TD2.pdb

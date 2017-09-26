@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/Extensions/Microsoft/Visualization and Modeling Feature Pack/2.0/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log">
+  <Message Timestamp="2017-09-26T13:33:34" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2017-09-26T13:33:34" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2017-09-26T13:33:34" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-09-26T13:33:34" Importance="Diagnostic" Text="ProjectPath = ..\ModelingProject1Lib\ModelingProject1Lib.csproj" />
+  <Message Timestamp="2017-09-26T13:33:34" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-09-26T13:33:34" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-09-26T13:33:34" Importance="Diagnostic" Text="TemplateFilePath = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-09-26T13:33:34" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-09-26T13:33:34" Importance="Medium" Text="ModelingProject1's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'ModelingProject1::Parallelepipede' -  (Class), 'ModelingProject1::Cube' -  (Class), 'ModelingProject1::TestZoomable' -  (Class) " />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Medium" Text="'ModelingProject1::Parallelepipede' -  (Class) : success (file replaced) - H:\POO2\TD2\ModelingProject1Lib\GeneratedCode\Parallelepipede.cs" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Medium" Text="'ModelingProject1::Cube' -  (Class) : success (file replaced) - H:\POO2\TD2\ModelingProject1Lib\GeneratedCode\Cube.cs" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Medium" Text="'ModelingProject1::TestZoomable' -  (Class) : success (file replaced) - H:\POO2\TD2\ModelingProject1Lib\GeneratedCode\TestZoomable.cs" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="ProjectPath = ..\ModelingProject1Lib\ModelingProject1Lib.csproj" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="TemplateFilePath = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Medium" Text="ModelingProject1's Text Template Binding: 'InterfaceTemplate' will apply InterfaceTemplate.t4 to: 'ModelingProject1::IZoomable' -  (Interface) " />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Medium" Text="'ModelingProject1::IZoomable' -  (Interface) : success (file replaced) - H:\POO2\TD2\ModelingProject1Lib\GeneratedCode\IZoomable.cs" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="ProjectPath = ..\ModelingProject1Lib\ModelingProject1Lib.csproj" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="TemplateFilePath = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Medium" Text="ModelingProject1's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'ModelingProject1::Parallelepipede' -  (Class), 'ModelingProject1::Cube' -  (Class), 'ModelingProject1::TestZoomable' -  (Class) " />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="'ModelingProject1::Parallelepipede' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="'ModelingProject1::Cube' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="'ModelingProject1::TestZoomable' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="The selection included 3 elements which were not bound to a template." />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="'ModelingProject1::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="'ModelingProject1::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="Diagnostic" Text="'ModelingProject1::' -  (Association): no bound template." />
+  <Message Timestamp="2017-09-26T13:33:35" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>

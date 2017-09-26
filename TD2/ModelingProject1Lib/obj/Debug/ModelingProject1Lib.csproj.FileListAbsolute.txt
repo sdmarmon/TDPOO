@@ -1,0 +1,4 @@
+H:\POO2\TD2\ModelingProject1Lib\bin\Debug\ModelingProject1Lib.dll
+H:\POO2\TD2\ModelingProject1Lib\bin\Debug\ModelingProject1Lib.pdb
+H:\POO2\TD2\ModelingProject1Lib\obj\Debug\ModelingProject1Lib.dll
+H:\POO2\TD2\ModelingProject1Lib\obj\Debug\ModelingProject1Lib.pdb
