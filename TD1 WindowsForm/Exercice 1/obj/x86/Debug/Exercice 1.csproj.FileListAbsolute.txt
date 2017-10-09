@@ -1,0 +1,7 @@
+H:\POO2\TD1 WindowsForm\Exercice 1\bin\Debug\Exercice 1.exe
+H:\POO2\TD1 WindowsForm\Exercice 1\bin\Debug\Exercice 1.pdb
+H:\POO2\TD1 WindowsForm\Exercice 1\obj\x86\Debug\Exercice_1.formInscription.resources
+H:\POO2\TD1 WindowsForm\Exercice 1\obj\x86\Debug\Exercice_1.Properties.Resources.resources
+H:\POO2\TD1 WindowsForm\Exercice 1\obj\x86\Debug\Exercice 1.csproj.GenerateResource.Cache
+H:\POO2\TD1 WindowsForm\Exercice 1\obj\x86\Debug\Exercice 1.exe
+H:\POO2\TD1 WindowsForm\Exercice 1\obj\x86\Debug\Exercice 1.pdb
