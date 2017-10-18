@@ -5,3 +5,11 @@ H:\POO2\TD1 WindowsForm\Exercice 1\obj\x86\Debug\Exercice_1.Properties.Resources
 H:\POO2\TD1 WindowsForm\Exercice 1\obj\x86\Debug\Exercice 1.csproj.GenerateResource.Cache
 H:\POO2\TD1 WindowsForm\Exercice 1\obj\x86\Debug\Exercice 1.exe
 H:\POO2\TD1 WindowsForm\Exercice 1\obj\x86\Debug\Exercice 1.pdb
+C:\Users\Sylvain\Documents\TDPOO\TD1 WindowsForm\Exercice 1\obj\x86\Debug\Exercice 1.exe
+C:\Users\Sylvain\Documents\TDPOO\TD1 WindowsForm\Exercice 1\obj\x86\Debug\Exercice 1.pdb
+C:\Users\Sylvain\Documents\TDPOO\TD1 WindowsForm\Exercice 1\bin\Debug\Exercice 1.exe
+C:\Users\Sylvain\Documents\TDPOO\TD1 WindowsForm\Exercice 1\bin\Debug\Exercice 1.pdb
+C:\Users\Sylvain\Documents\TDPOO\TD1 WindowsForm\Exercice 1\obj\x86\Debug\Exercice 1.csprojResolveAssemblyReference.cache
+C:\Users\Sylvain\Documents\TDPOO\TD1 WindowsForm\Exercice 1\obj\x86\Debug\Exercice_1.formInscription.resources
+C:\Users\Sylvain\Documents\TDPOO\TD1 WindowsForm\Exercice 1\obj\x86\Debug\Exercice_1.Properties.Resources.resources
+C:\Users\Sylvain\Documents\TDPOO\TD1 WindowsForm\Exercice 1\obj\x86\Debug\Exercice 1.csproj.GenerateResource.Cache
