@@ -44,7 +44,13 @@ namespace ProspectApp
         private void btnPlus_Click(object sender, EventArgs e)
         {
             ProspectForm prospectform = new ProspectForm(prospects);
-            prospectform.Show();
+            prospectform.ShowDialog();
+            lvProspects.Items.Clear();
+            foreach (Prospect prospect in prospects.GetAll())
+            {
+                lvProspects.Items.Add(prospect.ToString());
+            }
+            this.Refresh();
         }
 
         private void tbCourriel_TextChanged(object sender, EventArgs e)

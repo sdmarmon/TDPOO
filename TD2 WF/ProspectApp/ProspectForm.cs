@@ -24,7 +24,7 @@ namespace ProspectApp
 
         private void btnOk_Click(object sender, EventArgs e)
         {
-            Prospect prospect = new Prospect(tbNom.Text, tbPrenom.Text, tbCourriel.Text, dtpDernierContact.Value);
+            Prospect prospect = new Prospect(tbNom.Text, tbPrenom.Text, tbCourriel.Text, dtpDernierContact.Value, rtbNotes.Text);
             prospects.Add(prospect);
             this.Close();
         }
