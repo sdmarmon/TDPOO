@@ -44,7 +44,6 @@
             // 
             // dtpDernierContact
             // 
-            this.dtpDernierContact.Enabled = false;
             this.dtpDernierContact.Location = new System.Drawing.Point(328, 194);
             this.dtpDernierContact.Name = "dtpDernierContact";
             this.dtpDernierContact.Size = new System.Drawing.Size(231, 22);
@@ -54,7 +53,6 @@
             // 
             this.rtbNotes.Location = new System.Drawing.Point(328, 241);
             this.rtbNotes.Name = "rtbNotes";
-            this.rtbNotes.ReadOnly = true;
             this.rtbNotes.Size = new System.Drawing.Size(231, 170);
             this.rtbNotes.TabIndex = 21;
             this.rtbNotes.Text = "";
@@ -63,7 +61,6 @@
             // 
             this.tbCourriel.Location = new System.Drawing.Point(328, 148);
             this.tbCourriel.Name = "tbCourriel";
-            this.tbCourriel.ReadOnly = true;
             this.tbCourriel.Size = new System.Drawing.Size(231, 22);
             this.tbCourriel.TabIndex = 20;
             // 
@@ -107,7 +104,6 @@
             // 
             this.tbPrenom.Location = new System.Drawing.Point(328, 90);
             this.tbPrenom.Name = "tbPrenom";
-            this.tbPrenom.ReadOnly = true;
             this.tbPrenom.Size = new System.Drawing.Size(231, 22);
             this.tbPrenom.TabIndex = 15;
             // 
@@ -115,7 +111,6 @@
             // 
             this.tbNom.Location = new System.Drawing.Point(328, 34);
             this.tbNom.Name = "tbNom";
-            this.tbNom.ReadOnly = true;
             this.tbNom.Size = new System.Drawing.Size(231, 22);
             this.tbNom.TabIndex = 14;
             // 
@@ -144,6 +139,7 @@
             this.btnOk.TabIndex = 23;
             this.btnOk.Text = "Ok";
             this.btnOk.UseVisualStyleBackColor = true;
+            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // ProspectForm
             // 

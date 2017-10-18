@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DAL;
+using Domain;
 
 namespace ProspectApp
 {
@@ -15,6 +17,18 @@ namespace ProspectApp
         public MainForm()
         {
             InitializeComponent();
+        }
+
+        public IProspectRepository prospects;
+
+        public MainForm(IProspectRepository prospectRepository)
+        {
+            InitializeComponent();
+            prospects = prospectRepository;
+            foreach (Prospect prospect in prospectRepository.GetAll())
+            {
+                lvProspects.Items.Add(prospect.ToString());
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -27,9 +41,10 @@ namespace ProspectApp
 
         }
 
-        private void btn_Click(object sender, EventArgs e)
+        private void btnPlus_Click(object sender, EventArgs e)
         {
-
+            ProspectForm prospectform = new ProspectForm(prospects);
+            prospectform.Show();
         }
 
         private void tbCourriel_TextChanged(object sender, EventArgs e)

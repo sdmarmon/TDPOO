@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.lblNom = new System.Windows.Forms.Label();
-            this.lvPropects = new System.Windows.Forms.ListView();
+            this.lvProspects = new System.Windows.Forms.ListView();
             this.tbNom = new System.Windows.Forms.TextBox();
             this.tbPrenom = new System.Windows.Forms.TextBox();
             this.lblPrenom = new System.Windows.Forms.Label();
@@ -52,14 +52,14 @@
             this.lblNom.Text = "Nom :";
             this.lblNom.Click += new System.EventHandler(this.label1_Click);
             // 
-            // lvPropects
+            // lvProspects
             // 
-            this.lvPropects.Location = new System.Drawing.Point(12, 12);
-            this.lvPropects.Name = "lvPropects";
-            this.lvPropects.Size = new System.Drawing.Size(167, 399);
-            this.lvPropects.TabIndex = 1;
-            this.lvPropects.UseCompatibleStateImageBehavior = false;
-            this.lvPropects.SelectedIndexChanged += new System.EventHandler(this.lvPropects_SelectedIndexChanged);
+            this.lvProspects.Location = new System.Drawing.Point(12, 12);
+            this.lvProspects.Name = "lvProspects";
+            this.lvProspects.Size = new System.Drawing.Size(167, 399);
+            this.lvProspects.TabIndex = 1;
+            this.lvProspects.UseCompatibleStateImageBehavior = false;
+            this.lvProspects.SelectedIndexChanged += new System.EventHandler(this.lvPropects_SelectedIndexChanged);
             // 
             // tbNom
             // 
@@ -155,6 +155,7 @@
             this.btnPlus.TabIndex = 12;
             this.btnPlus.Text = "+";
             this.btnPlus.UseVisualStyleBackColor = true;
+            this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // MainForm
             // 
@@ -171,7 +172,7 @@
             this.Controls.Add(this.lblPrenom);
             this.Controls.Add(this.tbPrenom);
             this.Controls.Add(this.tbNom);
-            this.Controls.Add(this.lvPropects);
+            this.Controls.Add(this.lvProspects);
             this.Controls.Add(this.lblNom);
             this.Name = "MainForm";
             this.Text = "Gestion des Prospects";
@@ -180,10 +181,15 @@
 
         }
 
+        private void BtnPlus_Click(object sender, System.EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
+
         #endregion
 
         private System.Windows.Forms.Label lblNom;
-        private System.Windows.Forms.ListView lvPropects;
+        private System.Windows.Forms.ListView lvProspects;
         private System.Windows.Forms.TextBox tbNom;
         private System.Windows.Forms.TextBox tbPrenom;
         private System.Windows.Forms.Label lblPrenom;

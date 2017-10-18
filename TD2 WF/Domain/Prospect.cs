@@ -107,7 +107,7 @@ namespace Domain
 
         public override string ToString()
         {
-            return base.ToString();
+            return LastName+" "+FirstName;
         }
     }
 }

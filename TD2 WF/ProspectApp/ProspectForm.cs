@@ -7,14 +7,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DAL;
+using Domain;
 
 namespace ProspectApp
 {
     public partial class ProspectForm : Form
     {
-        public ProspectForm()
+        public ProspectForm(IProspectRepository prospectRepository)
         {
             InitializeComponent();
+            prospects = prospectRepository;
+        }
+
+        public IProspectRepository prospects;
+
+        private void btnOk_Click(object sender, EventArgs e)
+        {
+            Prospect prospect = new Prospect(tbNom.Text, tbPrenom.Text, tbCourriel.Text, dtpDernierContact.Value);
+            prospects.Add(prospect);
+            this.Close();
         }
     }
 }

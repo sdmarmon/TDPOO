@@ -32,6 +32,10 @@ namespace DAL
             predefini2 = new Prospect("Leblanc", "Jean", "jlb@gmail.com", dt2);
             Prospect predefini3;
             predefini3 = new Prospect();
+            prospectList = new List<Prospect>();
+            prospectList.Add(predefini1);
+            prospectList.Add(predefini2);
+            prospectList.Add(predefini3);
         }
     }
 }
